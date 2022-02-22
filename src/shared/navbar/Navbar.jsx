@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Spanish from "../../assets/img/Spanish.png";
 import English from "../../assets/img/English Flag.png";
+import logo from "../../assets/img/bbwhite2.png";
 import "./Navbar.scss";
 
 export default function Navbar() {
@@ -9,7 +10,8 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar_1">
-          <img src="" alt="BlackBehaviour" />
+          <img src={logo} alt="BlackBehaviour" className="logoENGwhite"/>
+         
         </div>
         <div className="navbar_2">
           <NavLink to="/home" className="navlink">
